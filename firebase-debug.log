@@ -1,0 +1,70 @@
+[debug] [2022-10-17T09:34:22.705Z] ----------------------------------------------------------------------
+[debug] [2022-10-17T09:34:22.710Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\ACER\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2022-10-17T09:34:22.712Z] CLI Version:   11.14.4
+[debug] [2022-10-17T09:34:22.712Z] Platform:      win32
+[debug] [2022-10-17T09:34:22.713Z] Node Version:  v16.17.0
+[debug] [2022-10-17T09:34:22.714Z] Time:          Mon Oct 17 2022 15:34:22 GMT+0600 (Bangladesh Standard Time)
+[debug] [2022-10-17T09:34:22.715Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-10-17T09:34:22.731Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-10-17T09:34:22.732Z] > authorizing via signed-in user (mirjakariya239@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\ACER\Desktop\firebase-practice
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-10-17T09:38:34.675Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2022-10-17T09:38:55.786Z] Failed to make request to https://firebase.googleapis.com/v1beta1/projects?pageSize=100
+[debug] [2022-10-17T09:38:56.262Z] FirebaseError: Failed to make request to https://firebase.googleapis.com/v1beta1/projects?pageSize=100
+    at RetryOperation._fn (C:\Users\ACER\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:242:31)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[error] 
+[error] Error: Failed to list Firebase projects. See firebase-debug.log for more info.
+[debug] [2022-10-17T09:39:12.769Z] ----------------------------------------------------------------------
+[debug] [2022-10-17T09:39:12.773Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\ACER\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2022-10-17T09:39:12.774Z] CLI Version:   11.14.4
+[debug] [2022-10-17T09:39:12.774Z] Platform:      win32
+[debug] [2022-10-17T09:39:12.774Z] Node Version:  v16.17.0
+[debug] [2022-10-17T09:39:12.775Z] Time:          Mon Oct 17 2022 15:39:12 GMT+0600 (Bangladesh Standard Time)
+[debug] [2022-10-17T09:39:12.776Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-10-17T09:39:12.793Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-10-17T09:39:12.794Z] > authorizing via signed-in user (mirjakariya239@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\ACER\Desktop\firebase-practice
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-10-17T09:39:22.631Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2022-10-17T09:39:43.716Z] Failed to make request to https://firebase.googleapis.com/v1beta1/projects?pageSize=100
+[debug] [2022-10-17T09:39:44.133Z] FirebaseError: Failed to make request to https://firebase.googleapis.com/v1beta1/projects?pageSize=100
+    at RetryOperation._fn (C:\Users\ACER\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:242:31)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[error] 
+[error] Error: Failed to list Firebase projects. See firebase-debug.log for more info.
